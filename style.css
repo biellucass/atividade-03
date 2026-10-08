@@ -1,6 +1,10 @@
 * {
     margin: 0;
     padding: 0;
+
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
 }
 
 body{
@@ -52,7 +56,7 @@ nav ul li a {
     color: #cccccc;
     text-decoration: none;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 16px;
     transition: color 0.3s ease;
 }
 
@@ -60,8 +64,30 @@ nav ul li a:hover {
     color: #ffffff; /* Cor ao passar o mouse */
 }
 
+
+
+
 main {
     max-width: 1000px;
-    margin: 40px auto;
-    padding: 0 20px;
+    margin: 100px 100px;
 }
+
+.apresentacao {
+    max-width: 700px;
+    margin: 0;
+    text-align: left;
+}
+.apresentacao h2 {
+    font-size: 1.8rem;
+    line-height: 1.3;
+    margin-bottom: 62px; 
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.apresentacao p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 16px;   
+}
+
