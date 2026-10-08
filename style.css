@@ -14,7 +14,7 @@ body{
 }
 
 header{
-    background-color: #2E3247;
+    background-color: #0e0f13;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -64,30 +64,44 @@ nav ul li a:hover {
     color: #ffffff; /* Cor ao passar o mouse */
 }
 
-
-
-
-main {
-    max-width: 1000px;
-    margin: 100px 100px;
-}
-
 .apresentacao {
-    max-width: 700px;
-    margin: 0;
+    background-image:linear-gradient(
+        rgba(0, 0, 0, 0.211),
+        rgb(0, 0, 0)  
+    ), url(fundothelastofus.avif);
+    background-size: cover;
+    background-position: left center;
+
+    min-height: 100dvh;
+
+    padding: 150px 80px;
     text-align: left;
+
 }
+
+.apresentacao-conteudo {
+    max-width: 600px;
+    text-align: left;
+
+
+}
+
 .apresentacao h2 {
+    font-family: 'Oswald', 'Impact', sans-serif;
     font-size: 1.8rem;
-    line-height: 1.3;
-    margin-bottom: 62px; 
+    color: #ffffff;
+    line-height: 1.2;
+    margin-bottom: 25px;
     text-transform: uppercase;
     letter-spacing: 0.5px;
+    font-weight: 900;
 }
 
 .apresentacao p {
+    color: #ffffff;
     font-size: 1rem;
     line-height: 1.6;
-    margin-bottom: 16px;   
+    margin-bottom: 15px;    /* Espaçamento entre os parágrafos */
 }
+
 
