@@ -157,3 +157,90 @@ nav ul li a:hover {
 }
 
 
+
+.jogos-section {
+    background-image: linear-gradient( to bottom,
+        #000000 0%,
+        #000000 5%,
+        rgba(0, 0, 0, 0.359), 
+        rgb(0, 0, 0)
+    ), url(ellienafloresta.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    padding: 60px 40px;
+    color: #ffffff;
+    text-align: center;
+
+}
+
+.jogos-section h2 {
+    font-family: 'Oswald', 'Impact', sans-serif;
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 100px;
+}
+
+.cards-container::-webkit-scrollbar {
+    height: 6px;
+}
+.cards-container::-webkit-scrollbar-thumb {
+    background-color: #333333;
+    border-radius: 4px;
+}
+
+.cards-container {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto; /*aparentemente ele permite rolar pro lado caso não caiba tudo*/
+    padding-bottom: 20px;
+    scroll-behavior: smooth;
+}
+
+.card {
+    flex: 0 0 260px;
+    text-align: left;
+    display: flex; 
+    flex-direction: column;
+
+}
+
+.card-imagem {
+    width: 100%;
+    height: 320px;
+    border-radius: 12px;
+    overflow: hidden;
+    margin-bottom: 12px;
+    background-color: #111111;
+}
+
+.card-imagem img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;   
+    transition: transform 0.3s ease;
+    margin-bottom: 12px;
+}
+
+.categoria {
+    font-size: 0.8rem;
+    color: rgb(43, 151, 227);
+    margin-bottom: 12px;
+}
+
+.card h3 {
+    font-size: 1rem;
+    margin-bottom: 12px;
+}
+
+.card p {
+    font-size: 0.8rem;
+    line-height: 1.3;
+
+
+}
+
+
+
