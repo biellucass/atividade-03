@@ -104,4 +104,56 @@ nav ul li a:hover {
     margin-bottom: 15px;    /* Espaçamento entre os parágrafos */
 }
 
+.info-jogo {
+    background-color: #000000;
+    padding: 80px 40px;
+    color: #ffffff;
+}
+
+.info-jogo h2 {
+    font-family: 'Oswald', 'Impact', sans-serif;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); 
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;               
+    padding: 0;
+}
+
+.info-grid li {
+    background-color: #0e0f13;    
+    border: 1px solid #222222;     
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.info-grid li:hover {
+    transform: translateY(-4px);
+    border-color: #444444;
+}
+
+.info-grid li strong {
+    color: #ffffff;
+    font-size: 0.95rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.info-grid li span {
+    color: #cccccc;
+    font-size: 1rem;
+}
+
 
