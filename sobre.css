@@ -70,12 +70,100 @@ nav ul li a:hover {
         rgb(0, 0, 0)  
     ), url(tlou-prologo.webp); 
     background-size: cover;
-    background-position: left center;
 
     min-height: 100dvh;
 
     padding: 150px 80px;
-    text-align: left;
+}
+
+.prologo h1, h2, h3 {
+    margin-bottom: 2rem;
+
+}
+
+.prologo p {
+    max-width: 56.25rem;
+    color: #ffffff;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+
+}
+
+.ellie-days {
+    background-image: linear-gradient( to bottom,
+        #000000 0%,
+        #000000 15%,
+        rgba(0, 0, 0, 0.211),
+        rgb(0, 0, 0)  
+    ), url(tlou-ellieday.jpg);
+
+    min-height: 100dvh;
+    padding: 150px 80px;
+    
+}
+
+.ellie-days h3 {
+    margin-bottom: 2rem;
+}
+
+.ellie-days p {
+    max-width: 56.25rem;
+    color: #ffffff;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.abby-days {
+    background-image: linear-gradient( to bottom,
+        #000000 10%,
+        #000000 15%,
+        rgba(0, 0, 0, 0.211),
+        rgb(0, 0, 0)  
+    ), url(tlou-abbyday.jpg);
+
+    min-height: 100dvh;
+    padding: 150px 80px;
+}
+
+.abby-days h3 {
+    margin-bottom: 2rem;
+}
+
+.abby-days p {
+    max-width: 56.25rem;
+    color: #ffffff;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.santa-barbara {
+    background-image: linear-gradient( to bottom,
+        #000000 0%,
+        #000000 15%,
+        rgba(0, 0, 0, 0.211),
+        rgb(0, 0, 0)  
+    ), url(tlou-santabarbara.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    min-height: 100dvh;
+    padding: 150px 80px;
+}
+
+.santa-barbara h3 {
+    margin-bottom: 2rem;
+}
+
+.santa-barbara p {
+    max-width: 56.25rem;
+    color: #ffffff;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+
 }
 
 
