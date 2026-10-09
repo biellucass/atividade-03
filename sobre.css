@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #141414;
+    background-color: #000000;
     color: white;
     font-family:Arial, Helvetica, sans-serif;
 }
@@ -72,7 +72,7 @@ main {
     background-image: linear-gradient(
         rgba(0, 0, 0, 0.211),
         rgb(0, 0, 0)  
-    ), url(tlou-prologo.webp); 
+    ), url(images/tlou-prologo.webp); 
     background-size: cover;
 
     min-height: 100dvh;
@@ -100,7 +100,7 @@ main {
         #000000 15%,
         rgba(0, 0, 0, 0.211),
         rgb(0, 0, 0)  
-    ), url(tlou-ellieday.jpg);
+    ), url(images/tlou-ellieday.jpg);
 
     min-height: 100dvh;
     padding: 150px 80px;
@@ -125,7 +125,7 @@ main {
         #000000 15%,
         rgba(0, 0, 0, 0.211),
         rgb(0, 0, 0)  
-    ), url(tlou-abbyday.jpg);
+    ), url(images/tlou-abbyday.jpg);
 
     min-height: 100dvh;
     padding: 150px 80px;
@@ -149,7 +149,7 @@ main {
         #000000 15%,
         rgba(0, 0, 0, 0.211),
         rgb(0, 0, 0)  
-    ), url(tlou-santabarbara.jpg);
+    ), url(images/tlou-santabarbara.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
 
@@ -289,6 +289,15 @@ main {
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+footer {
+    background-color: #000000;
+    border-top: 1px solid #1a1a1a;
+    text-align: center;
+    padding: 20px;
+    color: #666666;
+    font-size: 0.9rem;
 }
 
 
