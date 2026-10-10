@@ -14,12 +14,16 @@ body{
 }
 
 header{
-    background-color: #0e0f13;
+    background-color: #0e0f13ea;
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 8px 40px;
     height: 70px;
+
+    position: fixed;
+    width: 100%;
 }
 
 .logo a {
@@ -39,8 +43,8 @@ header{
 }
 
 .logo img {
-    height: 48px;     /* Força a imagem da logo a ter no máximo 35px de altura */
-    width: auto;      /* Mantém a proporção da imagem sem distorcer */
+    height: 48px;     
+    width: auto;   
     display: block;
     filter: brightness(0) invert(1);
 
@@ -62,6 +66,13 @@ nav ul li a {
 
 nav ul li a:hover {
     color: #ffffff; /* Cor ao passar o mouse */
+}
+
+h1 {
+    font-family: 'Oswald', 'Impact', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 2.3rem;
+    text-transform: uppercase;
 }
 
 .apresentacao {
@@ -154,8 +165,6 @@ nav ul li a:hover {
     font-size: 1rem;
 }
 
-
-
 .jogos-section {
     background-image: linear-gradient( to bottom,
         #000000 0%,
@@ -170,7 +179,6 @@ nav ul li a:hover {
     padding: 60px 40px;
     color: #ffffff;
     text-align: center;
-
 }
 
 .jogos-section h2 {
