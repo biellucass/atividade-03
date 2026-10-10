@@ -76,7 +76,9 @@ h1 {
 }
 
 .apresentacao {
-    background-image:linear-gradient(
+    background-image:linear-gradient(to bottom,
+        #000000 0%,
+        #000000 5%,
         rgba(0, 0, 0, 0.211),
         rgb(0, 0, 0)  
     ), url(images/fundothelastofus.avif);
